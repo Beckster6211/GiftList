@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GiftList
+# GiftList -->
+
+# BLJ <img src = "./public/blj5.PNG" width = "100px" height = "auto" />
+
+###### Becky Louise Jones 🙋‍♀️ (me)
+
+## Gift List 🎁
+
+Created this as somewhere I can put gift ideas when I have them.
