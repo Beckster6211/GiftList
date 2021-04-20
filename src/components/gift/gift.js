@@ -4,10 +4,13 @@ import "./gift.css";
 function Gift({ gift, index, markGift, removeGift }) {
   return (
     <div className="gift">
-      <span style={{ textDecoration: gift.isDone ? "line-through" : "" }}>
+      <span
+        className="giftName"
+        style={{ textDecoration: gift.isDone ? "line-through" : "" }}
+      >
         {gift.text}
       </span>
-      <div>
+      <div className="buttons">
         <Button variant="outline-success" onClick={() => markGift(index)}>
           ✓
         </Button>{" "}
