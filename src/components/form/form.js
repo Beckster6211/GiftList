@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
+import "./form.css";
 
 function FormGift({ addGift }) {
   const [value, setValue] = useState("");
@@ -15,17 +16,17 @@ function FormGift({ addGift }) {
     <Form onSubmit={handleSubmit}>
       <Form.Group>
         <Form.Label>
-          <b>Add Gift</b>
+          <h5 className="addGiftHeading">Add Gift 🎁</h5>
         </Form.Label>
         <Form.Control
           type="text"
           className="input"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="Add new gift idea"
+          placeholder="New gift idea"
         />
       </Form.Group>
-      <Button variant="primary mb-3" type="submit">
+      <Button variant="success mb-3" type="submit" block>
         Submit
       </Button>
     </Form>

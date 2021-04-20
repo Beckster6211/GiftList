@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Gift from "./components/gift";
-import FormGift from "./components/form";
+import Gift from "./components/gift/gift";
+import FormGift from "./components/form/form";
 
 function App() {
   const [gifts, setGifts] = useState([
     {
-      text: "This is a sample",
+      text: "Flying Saucers",
       isDone: false,
     },
   ]);
@@ -32,13 +32,14 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="heading">🎂 Becky would like... 🎄</h1>
+      <p className="please">Please</p>
       <div className="container">
-        <h1 className="text-center mb-4">Gift List</h1>
         <FormGift addGift={addGift} />
-        <div>
+        <div className="giftList">
           {gifts.map((gift, index) => (
             <Card>
-              <Card.Body>
+              <Card.Body className="cardBody">
                 <Gift
                   key={index}
                   index={index}
