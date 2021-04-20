@@ -1,0 +1,20 @@
+.addGiftHeading {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.input {
+  font-size: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .addGiftHeading {
+    font-size: 0.9rem;
+    color: white;
+  }
+  .input {
+    font-size: 0.8rem;
+  }
+}
