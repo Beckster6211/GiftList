@@ -10,11 +10,17 @@ function Gift({ gift, index, markGift, removeGift }) {
       >
         {gift.text}
       </span>
-      <div className="buttons btn btn-lg">
-        <Button variant="outline-success" onClick={() => markGift(index)}>
+      <div className="buttons">
+        <Button
+          variant="outline-success btn btn-lg"
+          onClick={() => markGift(index)}
+        >
           ✓
         </Button>{" "}
-        <Button variant="outline-danger" onClick={() => removeGift(index)}>
+        <Button
+          variant="outline-danger btn btn-lg"
+          onClick={() => removeGift(index)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
