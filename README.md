@@ -77,3 +77,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Gift List 🎁
 
 Created this as somewhere I can put gift ideas when I have them.
+
+## How I started 🏁
+
+I started with the functionality simular to a to do list.
+
+## What I used 🛠️
+
+For general app construction
+<br></br>
+<img src = "./public/1280px-React-icon.svg (1).png" width = "150px" height = "100px"/>
+
+<ul>
+    <li>React </li>
+        <ul>
+        <li>React Dom</li>
+    </ul>
+ </ul>
+
+For css
+<br></br>
+<img src = "./public/download.png" width = "70px" height = "70px"/>
+
+<ul>
+    <li>Bootstrap </li>
+</ul>
+
+## Inspiration 💡
+
+###### (The reason)
+
+Something I do as my birthday is quite late in the year (November) is during the year if I see something I like I make a note of it (usually on phone). This will enable me to have somewhere to put them.
+
+###### This is in it's infancy as an MVP of just getting the logic sorted for expanding.
