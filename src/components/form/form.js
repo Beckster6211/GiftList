@@ -26,7 +26,7 @@ function FormGift({ addGift }) {
           placeholder="New gift idea"
         />
       </Form.Group>
-      <Button variant="success mb-3" type="submit" block>
+      <Button className="submit" variant="success mb-3" type="submit" block>
         Submit
       </Button>
     </Form>

@@ -10,7 +10,7 @@ function Gift({ gift, index, markGift, removeGift }) {
       >
         {gift.text}
       </span>
-      <div className="buttons">
+      <div className="buttons btn btn-lg">
         <Button variant="outline-success" onClick={() => markGift(index)}>
           ✓
         </Button>{" "}
